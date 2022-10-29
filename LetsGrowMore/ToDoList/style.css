@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+body{
+  height: 100vh;
+  background-color: #02000b;
+  background-image: -webkit-linear-gradient(65deg, #1b1b32 50%, #f5f6f7 50%);
+  min-height: 1000px;
+  font-family: 'Roboto', sans-serif;
+
+}
+h1{
+  color: #1b1b32;
+}
+.container{
+  display:block;
+  margin: 140px auto;
+  max-width: 500px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input-field{
+  text-align: center;
+}
+input[type="text"]{
+  color: #fff;
+  /* border: none; */
+  border: 2px solid lighblue;
+  border-radius:5px;
+  background-color: #f3f9ff;
+  max-width: 400px;
+}
+.todos li{
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+}
+.delete{
+  cursor: pointer;
+  color: red;
+}
